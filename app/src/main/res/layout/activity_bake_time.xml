@@ -19,28 +19,6 @@
         android:layout_marginTop="67dp"
         android:layout_alignParentEnd="true" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/txtItem"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:hint="Item" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/txtBakeTime"
-        android:layout_below="@+id/txtWeight"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="24dp"
-        android:layout_alignEnd="@+id/txtWeight"
-        android:editable="false"
-        android:autoText="false"
-        android:enabled="false"
-        android:hint="Bake Time" />
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -48,6 +26,27 @@
         android:id="@+id/btnCalculate"
         android:layout_centerVertical="true"
         android:layout_alignParentStart="true"
-        android:layout_alignEnd="@+id/txtBakeTime" />
+        android:layout_alignEnd="@+id/txtWeight" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemSpinner"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bake time: t"
+        android:id="@+id/lblBakeTime"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/txtWeight"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#197a17"
+        android:textStyle="bold" />
 
 </RelativeLayout>
