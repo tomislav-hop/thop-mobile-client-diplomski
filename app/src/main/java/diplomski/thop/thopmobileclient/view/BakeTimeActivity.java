@@ -1,4 +1,4 @@
-package diplomski.thop.thopmobileclient;
+package diplomski.thop.thopmobileclient.view;
 
 import android.graphics.Color;
 import android.graphics.PorterDuff;
@@ -14,6 +14,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
+import diplomski.thop.thopmobileclient.R;
 import diplomski.thop.thopmobileclient.controller.implementation.ItemImpl;
 import diplomski.thop.thopmobileclient.model.Item;
 
