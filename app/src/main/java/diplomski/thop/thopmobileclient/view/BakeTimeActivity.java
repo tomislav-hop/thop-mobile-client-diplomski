@@ -49,7 +49,8 @@ public class BakeTimeActivity extends AppCompatActivity {
                 int itemId = ii.getItemId(itemList, spinnerItems.getSelectedItem().toString());
                 //txtBakeTime.setText(ii.getBakeTime(itemId, txtWeight.getText().toString()));
                 //txtBakeTime.getBackground().setColorFilter(Color.RED, PorterDuff.Mode.SRC_ATOP);
-                lblBakeTime.append(" " + ii.getBakeTime(itemId, txtWeight.getText().toString()));
+                //lblBakeTime.append(" " + ii.getBakeTime(itemId, txtWeight.getText().toString()));
+                lblBakeTime.setText("Bake time: " + ii.getBakeTime(itemId, txtWeight.getText().toString()));
                 //testlblBakeTime.getBackground().setColorFilter(Color.RED, PorterDuff.Mode.SRC_ATOP);
             }
         });
