@@ -226,7 +226,8 @@
         <activity android:name=".view.BakeTimeActivity" />
         <activity android:name=".view.ViewOrderHistoryActivity" />
         <activity android:name=".view.ViewOrderHistoryItemsActivity" />
-        <activity android:name=".view.OrderItemsActivity"></activity>
+        <activity android:name=".view.OrderItemsActivity" />
+        <activity android:name=".view.AddOrderActivity"></activity>
     </application>
 
 </manifest>
